@@ -28,3 +28,5 @@ Point form for speedy writing. If I/we made a different design decision, 80% cha
       - This wait is crucical to keep the order of the message narrated by screen reader in a correct order
 - Another universe
    - After timed out, we should show a badge in the chat history and say "some messages in this point of time may be missing"
+
+![image](https://github.com/compulim/did/assets/1622400/79971f6e-06c6-4d9a-8605-b26d3ad67830)
