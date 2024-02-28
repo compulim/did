@@ -7,6 +7,7 @@ Point form for speedy writing. If I/we made a different design decision, 80% cha
 | Area  | Product            | Date                      |
 | ------| ------------------ | ------------------------- |
 | Azure | Azure Bot Services | [2024-02-28](#2024-02-28) |
+| Bot Framework | Web Chat | [2024-02-28](#2024-02-28) |
 
 ## 2024-02-28
 
@@ -19,3 +20,11 @@ Point form for speedy writing. If I/we made a different design decision, 80% cha
    - Messages sent through proactive messaging could route to push: Web Push, APNS, GCM, WNS (and even ACS/Trouter)
       - Web Push requires a visible message, while APNS/GCM/WNS support binary/invisible message
    - We still need to retrieve the full message via chat history
+
+### Web Chat: Missing activities referenced by `replyToId`
+
+- This universe
+   - Wait up to 5 seconds for the missing activity to show up
+      - This wait is crucical to keep the order of the message narrated by screen reader in a correct order
+- Another universe
+   - After timed out, we should show a badge in the chat history and say "some messages in this point of time may be missing"
