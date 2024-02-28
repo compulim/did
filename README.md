@@ -29,4 +29,5 @@ Point form for speedy writing. If I/we made a different design decision, 80% cha
 - Another universe
    - After timed out, we should show a badge in the chat history and say "some messages in this point of time may be missing"
 
-![image](https://github.com/compulim/did/assets/1622400/79971f6e-06c6-4d9a-8605-b26d3ad67830)
+![image](https://github.com/compulim/did/assets/1622400/7b991f60-8a2e-4adc-80f7-7fa6fa1a0275)
+
