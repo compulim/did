@@ -27,7 +27,7 @@ Point form for speedy writing. If I/we made a different design decision, 80% cha
    - Wait up to 5 seconds for the missing activity to show up
       - This wait is crucical to keep the order of the message narrated by screen reader in a correct order
 - Another universe
-   - After timed out, we should show a badge in the chat history and say "some messages in this point of time may be missing"
+   - After timed out, we should show an exclamation mark icon with a tooltip in the chat history and say "some messages in this point of time may be missing"
 
 ![image](https://github.com/compulim/did/assets/1622400/7b991f60-8a2e-4adc-80f7-7fa6fa1a0275)
 
