@@ -19,6 +19,7 @@ Point form for speedy writing. If I/we made a different design decision, 80% cha
 - Another universe
    - Temporal UI state should be kept in the component itself
       - Devs can host multiple send box on a page and each of them works individually
+   - Hooks should be as stateless as possible
 
 ## 2024-02-28
 
