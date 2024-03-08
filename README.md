@@ -7,7 +7,18 @@ Point form for speedy writing. If I/we made a different design decision, 80% cha
 | Area  | Product            | Date                      |
 | ------| ------------------ | ------------------------- |
 | Azure | Azure Bot Services | [2024-02-28](#2024-02-28) |
-| Bot Framework | Web Chat | [2024-02-28](#2024-02-28) |
+| Bot Framework | Web Chat | [2024-03-08](#2024-03-08) [2024-02-28](#2024-02-28) |
+
+## 2024-03-08
+
+### Web Chat: Redux or not
+
+- This universe
+   - Use Redux to keep many UI states, such as the textbox input inside the send box
+      - Devs can call `useClickSendButton`-alike to send the content
+- Another universe
+   - Temporal UI state should be kept in the component itself
+      - Devs can host multiple send box on a page and each of them works individually
 
 ## 2024-02-28
 
